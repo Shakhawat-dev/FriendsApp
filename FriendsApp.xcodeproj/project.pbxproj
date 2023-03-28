@@ -11,6 +11,18 @@
 		A164C4AA29D3676A006F6625 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4A929D3676A006F6625 /* ContentView.swift */; };
 		A164C4AC29D3676C006F6625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A164C4AB29D3676C006F6625 /* Assets.xcassets */; };
 		A164C4AF29D3676C006F6625 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A164C4AE29D3676C006F6625 /* Preview Assets.xcassets */; };
+		A164C4BB29D368FC006F6625 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4BA29D368FC006F6625 /* NetworkManager.swift */; };
+		A164C4BE29D3698F006F6625 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4BD29D3698F006F6625 /* AppConstants.swift */; };
+		A164C4C029D369BB006F6625 /* UrlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4BF29D369BB006F6625 /* UrlExtension.swift */; };
+		A164C4C229D36A22006F6625 /* ImageLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4C129D36A22006F6625 /* ImageLoaderService.swift */; };
+		A164C4C829D36AFC006F6625 /* ImageLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4C729D36AFC006F6625 /* ImageLoaderViewModel.swift */; };
+		A164C4CA29D36B1A006F6625 /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4C929D36B1A006F6625 /* ImageLoaderView.swift */; };
+		A164C4CC29D36F63006F6625 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4CB29D36F63006F6625 /* NoDataView.swift */; };
+		A164C4CE29D37114006F6625 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4CD29D37114006F6625 /* ResponseModel.swift */; };
+		A164C4D029D37145006F6625 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4CF29D37145006F6625 /* UserModel.swift */; };
+		A164C4D229D3744E006F6625 /* FriendListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D129D3744E006F6625 /* FriendListService.swift */; };
+		A164C4D729D375D8006F6625 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D629D375D8006F6625 /* FriendsViewModel.swift */; };
+		A164C4D929D38099006F6625 /* FriendsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D829D38099006F6625 /* FriendsGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,19 @@
 		A164C4A929D3676A006F6625 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A164C4AB29D3676C006F6625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A164C4AE29D3676C006F6625 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A164C4BA29D368FC006F6625 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A164C4BD29D3698F006F6625 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		A164C4BF29D369BB006F6625 /* UrlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlExtension.swift; sourceTree = "<group>"; };
+		A164C4C129D36A22006F6625 /* ImageLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderService.swift; sourceTree = "<group>"; };
+		A164C4C729D36AFC006F6625 /* ImageLoaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderViewModel.swift; sourceTree = "<group>"; };
+		A164C4C929D36B1A006F6625 /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		A164C4CB29D36F63006F6625 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		A164C4CD29D37114006F6625 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		A164C4CF29D37145006F6625 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A164C4D129D3744E006F6625 /* FriendListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListService.swift; sourceTree = "<group>"; };
+		A164C4D629D375D8006F6625 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		A164C4D829D38099006F6625 /* FriendsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsGridView.swift; sourceTree = "<group>"; };
+		A164C4DA29D38F2D006F6625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,11 @@
 		A164C4A629D3676A006F6625 /* FriendsApp */ = {
 			isa = PBXGroup;
 			children = (
+				A164C4DA29D38F2D006F6625 /* Info.plist */,
+				A164C4B829D367C6006F6625 /* Networking */,
+				A164C4B729D367BB006F6625 /* Utilities */,
+				A164C4B629D367B6006F6625 /* Models */,
+				A164C4B529D367AD006F6625 /* Core */,
 				A164C4A729D3676A006F6625 /* FriendsAppApp.swift */,
 				A164C4A929D3676A006F6625 /* ContentView.swift */,
 				A164C4AB29D3676C006F6625 /* Assets.xcassets */,
@@ -65,6 +95,118 @@
 				A164C4AE29D3676C006F6625 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A164C4B529D367AD006F6625 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4D329D375B6006F6625 /* Friends */,
+				A164C4C329D36A3A006F6625 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A164C4B629D367B6006F6625 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4CD29D37114006F6625 /* ResponseModel.swift */,
+				A164C4CF29D37145006F6625 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A164C4B729D367BB006F6625 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4BC29D3696C006F6625 /* Extentions */,
+				A164C4BD29D3698F006F6625 /* AppConstants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A164C4B829D367C6006F6625 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4B929D367F9006F6625 /* Services */,
+				A164C4BA29D368FC006F6625 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A164C4B929D367F9006F6625 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4C129D36A22006F6625 /* ImageLoaderService.swift */,
+				A164C4D129D3744E006F6625 /* FriendListService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A164C4BC29D3696C006F6625 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4BF29D369BB006F6625 /* UrlExtension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		A164C4C329D36A3A006F6625 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4C429D36A53006F6625 /* ImageLoader */,
+				A164C4CB29D36F63006F6625 /* NoDataView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A164C4C429D36A53006F6625 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4C629D36ADD006F6625 /* View */,
+				A164C4C529D36AD5006F6625 /* Viewmodel */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		A164C4C529D36AD5006F6625 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4C729D36AFC006F6625 /* ImageLoaderViewModel.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		A164C4C629D36ADD006F6625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4C929D36B1A006F6625 /* ImageLoaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A164C4D329D375B6006F6625 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4D529D375C5006F6625 /* View */,
+				A164C4D429D375BD006F6625 /* ViewModel */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		A164C4D429D375BD006F6625 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4D629D375D8006F6625 /* FriendsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A164C4D529D375C5006F6625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A164C4D829D38099006F6625 /* FriendsGridView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A164C4C229D36A22006F6625 /* ImageLoaderService.swift in Sources */,
+				A164C4C829D36AFC006F6625 /* ImageLoaderViewModel.swift in Sources */,
+				A164C4BB29D368FC006F6625 /* NetworkManager.swift in Sources */,
 				A164C4AA29D3676A006F6625 /* ContentView.swift in Sources */,
+				A164C4C029D369BB006F6625 /* UrlExtension.swift in Sources */,
+				A164C4CA29D36B1A006F6625 /* ImageLoaderView.swift in Sources */,
 				A164C4A829D3676A006F6625 /* FriendsAppApp.swift in Sources */,
+				A164C4D229D3744E006F6625 /* FriendListService.swift in Sources */,
+				A164C4D929D38099006F6625 /* FriendsGridView.swift in Sources */,
+				A164C4CC29D36F63006F6625 /* NoDataView.swift in Sources */,
+				A164C4CE29D37114006F6625 /* ResponseModel.swift in Sources */,
+				A164C4BE29D3698F006F6625 /* AppConstants.swift in Sources */,
+				A164C4D729D375D8006F6625 /* FriendsViewModel.swift in Sources */,
+				A164C4D029D37145006F6625 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +424,7 @@
 				DEVELOPMENT_TEAM = 33Z26KH6FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +454,7 @@
 				DEVELOPMENT_TEAM = 33Z26KH6FC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FriendsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
