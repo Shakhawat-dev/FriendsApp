@@ -20,6 +20,7 @@ class FriendsViewModel: ObservableObject {
     
     init() {
         addSubscribers()
+        showLoader = true
     }
     
     

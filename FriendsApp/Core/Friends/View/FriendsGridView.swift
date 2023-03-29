@@ -30,14 +30,14 @@ struct FriendsGridView: View {
                 }.navigationTitle(Text("Friends"))
                 
             } else {
-                NoDataView()
-            }
-            
-            if vm.friendsList.isEmpty {
                 NoDataView(message: "Something wrong happened") {
                     vm.getFriends()
                 }
             }
+            
+//            if vm.friendsList.isEmpty {
+//                NoDataView()
+//            }
             
             if vm.showLoader {
                 ProgressView()
