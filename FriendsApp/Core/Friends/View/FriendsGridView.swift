@@ -27,7 +27,13 @@ struct FriendsGridView: View {
                             .buttonStyle(PlainButtonStyle())
                         }
                     }
-                }.navigationTitle(Text("Friends"))
+                }
+                .navigationTitle(Text("Friends"))
+                .toolbar {
+                    Button("Refresh") {
+                        vm.getFriends()
+                    }
+                }
                 
             } else {
                 NoDataView(message: "Something wrong happened") {

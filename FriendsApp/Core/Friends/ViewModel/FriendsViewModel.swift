@@ -36,6 +36,8 @@ class FriendsViewModel: ObservableObject {
     }
     
     func getFriends() {
+        showLoader = true
+        friendsList.removeAll()
         friendListService.getFriends()
     }
 }
