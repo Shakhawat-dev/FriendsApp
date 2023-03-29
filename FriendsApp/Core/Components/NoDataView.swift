@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct NoDataView: View {
+    var message: String? = nil
+    var action: () -> Void = {}
+    
     var body: some View {
         VStack(spacing: 16) {
             Image(systemName: "tray.2")
@@ -15,8 +18,14 @@ struct NoDataView: View {
                 .scaledToFit()
                 .frame(width: 128, height: 128)
             
-            Text("No Data")
+            Text(message ?? "No Data")
                 .font(.title)
+            
+            if let _ = message {
+                Button("Refresh") {
+                    action()
+                }
+            }
         }
     }
 

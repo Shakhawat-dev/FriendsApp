@@ -12,28 +12,31 @@ struct FriendsGridView: View {
     
     var body: some View {
         ZStack {
+            // Unwraping Optional friend List
             if let friends = vm.friendsList {
-//                List(friends, id: \.login?.uuid) { friend in
-//                    Text("\(friend.name?.first ?? "")")
-//                }
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 256), spacing: 8)]) {
+                        // Didn't use Identifiable protocal since we have uuid under login object
                         ForEach(friends, id: \.login?.uuid) { friend in
+                            // Navigating and showing the data
                             NavigationLink {
                                 FriendsDetailsView(friend: friend)
                             } label: {
                                 FriendGridItemView(friend: friend)
-                                    
                             }
                             .buttonStyle(PlainButtonStyle())
-
-                            
                         }
                     }
                 }.navigationTitle(Text("Friends"))
                 
             } else {
                 NoDataView()
+            }
+            
+            if vm.friendsList.isEmpty {
+                NoDataView(message: "Something wrong happened") {
+                    vm.getFriends()
+                }
             }
             
             if vm.showLoader {

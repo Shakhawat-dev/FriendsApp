@@ -29,7 +29,12 @@ class FriendsViewModel: ObservableObject {
                 self?.friendsResponse = returnedFriends
                 self?.friendsList.append(contentsOf: self?.friendsResponse?.results ?? [])
                 self?.showLoader = false
+//                print(returnedFriends)
             }
             .store(in: &cancellables)
+    }
+    
+    func getFriends() {
+        friendListService.getFriends()
     }
 }

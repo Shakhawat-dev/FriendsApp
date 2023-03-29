@@ -36,7 +36,6 @@ struct FriendsDetailsView: View {
                 NoDataView()
             }
             
-            
         }
     }
 }

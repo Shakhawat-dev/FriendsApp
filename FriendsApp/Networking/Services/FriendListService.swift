@@ -29,7 +29,7 @@ class FriendListService {
             .decode(type: ResponseModel<UserModel>.self, decoder: JSONDecoder())
             .sink(receiveCompletion: NetworkManager.handleCompletion, receiveValue: { [weak self] returnedData in
                 self?.response = returnedData
-                print(self?.response)
+                print(self?.response as Any)
                 
             })
     }
