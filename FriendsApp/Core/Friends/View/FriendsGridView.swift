@@ -19,15 +19,25 @@ struct FriendsGridView: View {
                 ScrollView {
                     LazyVGrid(columns: [GridItem(.adaptive(minimum: 256), spacing: 8)]) {
                         ForEach(friends, id: \.login?.uuid) { friend in
-                            VStack {
-                                ImageLoaderView(url: friend.picture?.medium ?? "")
-                                Text("\(friend.name?.title?.rawValue ?? "") \(  friend.name?.first ?? "")  \(friend.name?.last ?? "")")
-                                Text(friend.location?.country ?? "")
+                            NavigationLink {
+                                FriendsDetailsView(friend: friend)
+                            } label: {
+                                FriendGridItemView(friend: friend)
+                                    
                             }
+                            .buttonStyle(PlainButtonStyle())
+
+                            
                         }
                     }
-                }
+                }.navigationTitle(Text("Friends"))
                 
+            } else {
+                NoDataView()
+            }
+            
+            if vm.showLoader {
+                ProgressView()
             }
             
         }

@@ -23,6 +23,9 @@
 		A164C4D229D3744E006F6625 /* FriendListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D129D3744E006F6625 /* FriendListService.swift */; };
 		A164C4D729D375D8006F6625 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D629D375D8006F6625 /* FriendsViewModel.swift */; };
 		A164C4D929D38099006F6625 /* FriendsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164C4D829D38099006F6625 /* FriendsGridView.swift */; };
+		A1E0151C29D4A498002B25B1 /* FriendsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0151B29D4A498002B25B1 /* FriendsDetailsView.swift */; };
+		A1E0151E29D4A4F9002B25B1 /* FriendGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0151D29D4A4F9002B25B1 /* FriendGridItemView.swift */; };
+		A1E0152029D4A9D6002B25B1 /* InfoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0151F29D4A9D6002B25B1 /* InfoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		A164C4D629D375D8006F6625 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
 		A164C4D829D38099006F6625 /* FriendsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsGridView.swift; sourceTree = "<group>"; };
 		A164C4DA29D38F2D006F6625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A1E0151B29D4A498002B25B1 /* FriendsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailsView.swift; sourceTree = "<group>"; };
+		A1E0151D29D4A4F9002B25B1 /* FriendGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendGridItemView.swift; sourceTree = "<group>"; };
+		A1E0151F29D4A9D6002B25B1 /* InfoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 			children = (
 				A164C4C429D36A53006F6625 /* ImageLoader */,
 				A164C4CB29D36F63006F6625 /* NoDataView.swift */,
+				A1E0151F29D4A9D6002B25B1 /* InfoItemView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -205,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				A164C4D829D38099006F6625 /* FriendsGridView.swift */,
+				A1E0151B29D4A498002B25B1 /* FriendsDetailsView.swift */,
+				A1E0151D29D4A4F9002B25B1 /* FriendGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,13 +291,16 @@
 				A164C4C229D36A22006F6625 /* ImageLoaderService.swift in Sources */,
 				A164C4C829D36AFC006F6625 /* ImageLoaderViewModel.swift in Sources */,
 				A164C4BB29D368FC006F6625 /* NetworkManager.swift in Sources */,
+				A1E0151C29D4A498002B25B1 /* FriendsDetailsView.swift in Sources */,
 				A164C4AA29D3676A006F6625 /* ContentView.swift in Sources */,
 				A164C4C029D369BB006F6625 /* UrlExtension.swift in Sources */,
+				A1E0152029D4A9D6002B25B1 /* InfoItemView.swift in Sources */,
 				A164C4CA29D36B1A006F6625 /* ImageLoaderView.swift in Sources */,
 				A164C4A829D3676A006F6625 /* FriendsAppApp.swift in Sources */,
 				A164C4D229D3744E006F6625 /* FriendListService.swift in Sources */,
 				A164C4D929D38099006F6625 /* FriendsGridView.swift in Sources */,
 				A164C4CC29D36F63006F6625 /* NoDataView.swift in Sources */,
+				A1E0151E29D4A4F9002B25B1 /* FriendGridItemView.swift in Sources */,
 				A164C4CE29D37114006F6625 /* ResponseModel.swift in Sources */,
 				A164C4BE29D3698F006F6625 /* AppConstants.swift in Sources */,
 				A164C4D729D375D8006F6625 /* FriendsViewModel.swift in Sources */,

@@ -17,7 +17,7 @@ class FriendListService {
         self.getFriends()
     }
     
-    func getFriends(query: String = "results", size: Int = 4) {
+    func getFriends(query: String = "results", size: Int = 10) {
         if query.isEmpty {
             return
         }
