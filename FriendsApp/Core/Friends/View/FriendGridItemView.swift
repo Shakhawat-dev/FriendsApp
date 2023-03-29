@@ -13,7 +13,7 @@ struct FriendGridItemView: View {
     var body: some View {
         VStack {
             ImageLoaderView(url: friend?.picture?.medium ?? "")
-            Text("\(friend?.name?.title ?? "") \(  friend?.name?.first ?? "")  \(friend?.name?.last ?? "")")
+            Text("\(friend?.name?.title ?? "") \(friend?.name?.first ?? "")  \(friend?.name?.last ?? "")")
             Text(friend?.location?.country ?? "")
         }
     }

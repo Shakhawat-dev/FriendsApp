@@ -23,7 +23,7 @@ class FriendsViewModel: ObservableObject {
         showLoader = true
     }
     
-    
+    // Subscribing into publisers
     func addSubscribers() {
         friendListService.$response
             .sink { [weak self] (returnedFriends) in
@@ -35,6 +35,7 @@ class FriendsViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
+    // This method will be used for getting or refreshing new friends
     func getFriends() {
         showLoader = true
         friendsList.removeAll()
