@@ -19,7 +19,7 @@ struct FriendsDetailsView: View {
                         ImageLoaderView(url: friend.picture?.medium ?? "")
                             .frame(width: 256, height: 256)
                         
-                        InfoItemView(title: "Full Name", data: "\(friend.name?.title?.rawValue ?? "") \(  friend.name?.first ?? "")  \(friend.name?.last ?? "")")
+                        InfoItemView(title: "Full Name", data: "\(friend.name?.title ?? "") \(  friend.name?.first ?? "")  \(friend.name?.last ?? "")")
                         InfoItemView(title: "Address", data: "\(friend.location?.street?.number ?? 0) \(friend.location?.street?.name ?? "")  \(friend.name?.last ?? "")")
                         
                         InfoItemView(title: "City", data: friend.location?.city ?? "")

@@ -99,7 +99,7 @@ struct Login: Codable {
 
 // MARK: - Name
 struct Name: Codable {
-    let title: Title?
+    let title: String?
     let first, last: String?
 }
 

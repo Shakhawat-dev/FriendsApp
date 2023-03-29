@@ -33,7 +33,7 @@ class NetworkManager {
             throw NetworkingError.badURLResponse(url: url)
         }
         
-        print(String(decoding: output.data, as: UTF8.self))
+//        print(String(decoding: output.data, as: UTF8.self))
         return output.data
     }
     
@@ -45,6 +45,7 @@ class NetworkManager {
             break
         case .failure(let error):
             print(error.localizedDescription)
+            print(error)
         }
     }
     
