@@ -16,15 +16,18 @@ struct FriendsGridView: View {
 //                List(friends, id: \.login?.uuid) { friend in
 //                    Text("\(friend.name?.first ?? "")")
 //                }
-                LazyVGrid(columns: [GridItem(.adaptive(minimum: 256), spacing: 8)]) {
-                    ForEach(friends, id: \.login?.uuid) { friend in
-                        VStack {
-                            ImageLoaderView(url: friend.picture?.medium ?? "")
-                            Text("\(friend.name?.title?.rawValue ?? "") \(  friend.name?.first ?? "")  \(friend.name?.last ?? "")")
-                            Text(friend.location?.country ?? "")
+                ScrollView {
+                    LazyVGrid(columns: [GridItem(.adaptive(minimum: 256), spacing: 8)]) {
+                        ForEach(friends, id: \.login?.uuid) { friend in
+                            VStack {
+                                ImageLoaderView(url: friend.picture?.medium ?? "")
+                                Text("\(friend.name?.title?.rawValue ?? "") \(  friend.name?.first ?? "")  \(friend.name?.last ?? "")")
+                                Text(friend.location?.country ?? "")
+                            }
                         }
                     }
                 }
+                
             }
             
         }
