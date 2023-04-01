@@ -14,7 +14,7 @@ struct InfoItemView: View {
     var body: some View {
         HStack {
             Text("\(title) : ")
-            Text(data)
+            Text(LocalizedStringKey(data))
         }
     }
 }
